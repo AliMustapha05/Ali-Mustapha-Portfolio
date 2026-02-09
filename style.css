@@ -348,9 +348,10 @@ footer span {
   }
 
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.5rem;
     width: 100%;
+    justify-content: center;
   }
 
   .section-box {
@@ -367,3 +368,4 @@ footer span {
     gap: 1rem;
   }
 }
+
