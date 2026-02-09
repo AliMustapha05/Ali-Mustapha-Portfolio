@@ -342,16 +342,29 @@ footer span {
 
 @media (max-width: 480px) {
   nav {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
     gap: 0.5rem;
   }
 
   nav ul {
     flex-direction: row;
     gap: 0.5rem;
-    width: 100%;
+    flex-wrap: wrap;
     justify-content: center;
+    width: auto;
+  }
+
+  nav li a {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  #darkmodeBtn {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.9rem;
   }
 
   .section-box {
@@ -368,4 +381,6 @@ footer span {
     gap: 1rem;
   }
 }
+
+
 
