@@ -347,6 +347,7 @@ footer span {
     align-items: center;
     padding: 1rem;
     gap: 0.5rem;
+    scroll-margin-top: 80px;
   }
 
   nav ul {
@@ -381,6 +382,7 @@ footer span {
     gap: 1rem;
   }
 }
+
 
 
 
